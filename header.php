@@ -7,7 +7,7 @@
     <?php wp_head(); ?>
 </head>
 
-<header>
+<header class="p-header">
     header
 </header>
 
