@@ -1,0 +1,23 @@
+@use "../global" as global;
+
+.c-btn {
+  display: inline-block;
+  inline-size: fit-content;
+  font-size: global.rem(16);
+  padding-block: 0.5em;
+  padding-inline: 2em;
+  align-items: center;
+  border: 2px solid;
+  border-radius: calc(infinity * 1px);
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  transition: all 0.3s ease;
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: #393939;
+      color: #fff;
+    }
+  }
+}
